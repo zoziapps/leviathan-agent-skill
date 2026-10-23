@@ -1,6 +1,6 @@
 ---
 name: leviathan
-description: Read the user's Magic: The Gathering collection from the Leviathan app and create decks or cubes in it, via its AppleScript interface on macOS. Use when the user asks to build, suggest or check a deck or cube from cards they own, asks what is in their collection, or mentions Leviathan.
+description: "Read the user's Magic: The Gathering collection from the Leviathan app and create decks or cubes in it, via its AppleScript interface on macOS. Use when the user asks to build, suggest or check a deck or cube from cards they own, asks what is in their collection, or mentions Leviathan."
 license: MIT
 metadata:
   author: Stefan Pauwels, Zozi Apps
