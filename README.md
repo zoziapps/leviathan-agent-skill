@@ -20,6 +20,8 @@ Ask for example:
 - "Improve my Pauper Elves deck with cards I have."
 - "Make a 360-card Premodern cube from my cards."
 - "Which of my cards are legal in Old School?"
+- "Create a 60-card singleton deck with my collection making use of Crucible of Worlds, Zuran Orb and Fastbond."
+- "Do I have the cards to make a deck that uses Lion's Eye Diamond playable?"
 
 
 ## Requirements
