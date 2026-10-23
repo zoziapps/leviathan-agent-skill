@@ -6,12 +6,16 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/macOS-14+-2980b9.svg" alt="Requires macOS 14 or later." />
+    <img src="https://img.shields.io/badge/iOS%20%2F%20iPadOS-not%20supported-c0392b.svg" alt="Not available on iOS or iPadOS." />
     <img src="https://img.shields.io/badge/Leviathan-2.5+-8e44ad.svg" alt="Requires Leviathan 2.5 or later." />
 </p>
 
-An agent skill that lets AI assistants work with your Magic: The Gathering collection in [Leviathan](https://apps.apple.com/app/leviathan-magic-organizer/id6460975870). The assistant reads the cards you own, builds decks and cubes from them or improves existing ones, and saves a strategy guide in each list's notes.
+An agent skill that lets AI assistants work with your Magic: The Gathering collection in the **Mac version** of [Leviathan](https://apps.apple.com/app/leviathan-magic-organizer/id6460975870). The assistant reads the cards you own, builds decks and cubes from them or improves existing ones, and saves a strategy guide in each list's notes.
 
 It uses the [Agent Skills](https://agentskills.io/home) format, so it works with Claude Code, Codex, Gemini, Cursor and other agents that can run commands on your Mac.
+
+> [!IMPORTANT]
+> **Mac only.** The skill controls Leviathan through AppleScript, which exists only on macOS. It does not work with Leviathan on iPhone or iPad, and not with agents that run in the cloud or in a mobile app, such as the Claude or ChatGPT app on iOS. Your collection syncs through iCloud, so changes the agent makes on the Mac show up on your iPhone and iPad as usual.
 
 Ask for example:
 
@@ -23,7 +27,9 @@ Ask for example:
 
 ## Requirements
 
-- A Mac with [Leviathan](https://apps.apple.com/app/leviathan-magic-organizer/id6460975870) 2.5 or later. The skill talks to the app through AppleScript, so it only works on macOS, with an agent that runs commands locally. On iPhone and iPad, the same actions are available in the Shortcuts app.
+- A Mac with the Mac version of [Leviathan](https://apps.apple.com/app/leviathan-magic-organizer/id6460975870), 2.5 or later, installed.
+- An agent that runs commands locally on that Mac, such as Claude Code, Codex or Gemini CLI in Terminal.
+- Leviathan for iPhone and iPad has no AppleScript, so the skill cannot use it. There, the same actions (export the collection, create decks and cubes) are available as actions in the Shortcuts app, which you can run yourself.
 - The first time the agent talks to Leviathan, macOS asks whether your terminal or agent app may control Leviathan. Allow it.
 
 
