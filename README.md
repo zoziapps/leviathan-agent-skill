@@ -14,9 +14,6 @@ An agent skill that lets AI assistants work with your Magic: The Gathering colle
 
 It uses the [Agent Skills](https://agentskills.io/home) format, so it works with Claude Code, Codex, Gemini, Cursor and other agents that can run commands on your Mac.
 
-> [!IMPORTANT]
-> **Mac only.** The skill controls Leviathan through AppleScript, which exists only on macOS. It does not work with Leviathan on iPhone or iPad, and not with agents that run in the cloud or in a mobile app, such as the Claude or ChatGPT app on iOS. Your collection syncs through iCloud, so changes the agent makes on the Mac show up on your iPhone and iPad as usual.
-
 Ask for example:
 
 - "Build me a Modern mill deck from my collection."
@@ -27,9 +24,12 @@ Ask for example:
 
 ## Requirements
 
+> [!IMPORTANT]
+> **Mac only.** The skill controls Leviathan through AppleScript, which exists only on macOS. It does not work with Leviathan on iPhone or iPad, and not with agents that run in the cloud or in a mobile app, such as the Claude or ChatGPT app on iOS. Your collection syncs through iCloud, so changes the agent makes on the Mac show up on your iPhone and iPad as usual.
+
 - A Mac with the Mac version of [Leviathan](https://apps.apple.com/app/leviathan-magic-organizer/id6460975870), 2.5 or later, installed.
 - An agent that runs commands locally on that Mac, such as Claude Code, Codex or Gemini CLI in Terminal.
-- Leviathan for iPhone and iPad has no AppleScript, so the skill cannot use it. There, the same actions (export the collection, create decks and cubes) are available as actions in the Shortcuts app, which you can run yourself.
+- On iPhone and iPad, the same actions (export the collection, create decks and cubes) are available in the Shortcuts app instead, which you can run yourself.
 - The first time the agent talks to Leviathan, macOS asks whether your terminal or agent app may control Leviathan. Allow it.
 
 
