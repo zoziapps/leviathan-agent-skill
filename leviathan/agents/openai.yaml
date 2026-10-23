@@ -1,0 +1,10 @@
+interface:
+  display_name: "Leviathan"
+  short_description: "Builds Magic decks and cubes from the cards you own in Leviathan."
+  icon_small: "./assets/leviathan-icon.png"
+  icon_large: "./assets/leviathan-icon.png"
+  brand_color: "#2E4256"
+  default_prompt: "Use $leviathan to build a deck from my collection."
+
+policy:
+  allow_implicit_invocation: true

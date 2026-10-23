@@ -1,0 +1,24 @@
+{
+  "name": "leviathan",
+  "displayName": "Leviathan",
+  "version": "1.0.0",
+  "description": "Builds and improves Magic: The Gathering decks and cubes from the cards you own in Leviathan for Mac.",
+  "icon": "./assets/leviathan-icon.png",
+  "author": {
+    "name": "Stefan Pauwels, Zozi Apps",
+    "url": "https://zoziapps.ch"
+  },
+  "homepage": "https://github.com/zoziapps/leviathan-agent-skill",
+  "repository": "https://github.com/zoziapps/leviathan-agent-skill",
+  "license": "MIT",
+  "keywords": [
+    "magic-the-gathering",
+    "mtg",
+    "deck-building",
+    "cube",
+    "collection",
+    "applescript",
+    "macos"
+  ],
+  "skills": "./skills/"
+}
